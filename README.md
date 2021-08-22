@@ -1,5 +1,5 @@
 # Active control for drill-string systems
-It's well known that stick-slip vibrations existing in drill-string systems are extremely severe during drilling and are expected to mitigate or eliminate. Considering this practical problem, we present a possible solution by using observer-based tracking controller, which only requires the top measurements and is easy to implement. This repository provides the code for the conference paper "Observer-Based Tracking Control for Suppressing Stick-Slip Vibration of Drillstring System". We hope this can provide help to people who are working on the related fields.
+It's well known that stick-slip vibrations existing in drill-string systems are extremely severe during drilling and are expected to be mitigated or eliminated. Considering this practical problem, we present a possible solution by using observer-based tracking controller, which only requires the top measurements and is easy to implement. This repository provides the code of the conference paper "Observer-Based Tracking Control for Suppressing Stick-Slip Vibration of Drillstring System". We hope this can provide help to people who are working on the related fields.
 
 Please note that, this code is limited to academic use only.
 
@@ -18,3 +18,14 @@ Fig. 2 Performance of drill-string system with observer based tracking controlle
 <img src="figure/observer performance.jpg" alt="observer performance" width = "500"/>
 Fig. 3 Performance of observer
 
+
+If you find this helpful, please consider citing the paper
+```
+@article{Cheng2018ObserverBasedTC,
+  title={Observer-Based Tracking Control for Suppressing Stick-Slip Vibration of Drillstring System},
+  author={Jun Cheng and Min Wu and Luefeng Chen},
+  journal={2018 37th Chinese Control Conference (CCC)},
+  year={2018},
+  pages={10254-10258}
+}
+```
